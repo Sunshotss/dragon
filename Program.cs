@@ -6,21 +6,51 @@ namespace dragon
     {
         static void Main(string[] args)
         {
+            Console.CursorVisible = false;
             Vector2 selected = new Vector2(1, 1);
 
             int dragon_HP = 100;
             Console.WriteLine("Dragon has: " + dragon_HP + " HP");
 
+            char[,] borders = { 
+                { '#', '#', '#', '#', '#', '#', '#', '#', '#', '#', '#', '#', '#', '#', '#', '#', '#', '#', '#', '#', '#', '#', '#', '#', '#' },
+                { '#', ' ', ' ', ' ', ' ', ' ', ' ', ' ', '#', ' ', ' ', ' ', ' ', ' ', ' ', ' ', '#', ' ', ' ', ' ', ' ', ' ', ' ', ' ', '#' },
+                { '#', ' ', ' ', ' ', ' ', ' ', ' ', ' ', '#', ' ', ' ', ' ', ' ', ' ', ' ', ' ', '#', ' ', ' ', ' ', ' ', ' ', ' ', ' ', '#' },
+                { '#', ' ', ' ', ' ', ' ', ' ', ' ', ' ', '#', ' ', ' ', ' ', ' ', ' ', ' ', ' ', '#', ' ', ' ', ' ', ' ', ' ', ' ', ' ', '#' },
+                { '#', '#', '#', '#', '#', '#', '#', '#', '#', '#', '#', '#', '#', '#', '#', '#', '#', '#', '#', '#', '#', '#', '#', '#', '#' },
+                { '#', ' ', ' ', ' ', ' ', ' ', ' ', ' ', '#', ' ', ' ', ' ', ' ', ' ', ' ', ' ', '#', ' ', ' ', ' ', ' ', ' ', ' ', ' ', '#' },
+                { '#', ' ', ' ', ' ', ' ', ' ', ' ', ' ', '#', ' ', ' ', ' ', ' ', ' ', ' ', ' ', '#', ' ', ' ', ' ', ' ', ' ', ' ', ' ', '#' },
+                { '#', ' ', ' ', ' ', ' ', ' ', ' ', ' ', '#', ' ', ' ', ' ', ' ', ' ', ' ', ' ', '#', ' ', ' ', ' ', ' ', ' ', ' ', ' ', '#' },
+                { '#', '#', '#', '#', '#', '#', '#', '#', '#', '#', '#', '#', '#', '#', '#', '#', '#', '#', '#', '#', '#', '#', '#', '#', '#' },
+                { '#', ' ', ' ', ' ', ' ', ' ', ' ', ' ', '#', ' ', ' ', ' ', ' ', ' ', ' ', ' ', '#', ' ', ' ', ' ', ' ', ' ', ' ', ' ', '#' },
+                { '#', ' ', ' ', ' ', ' ', ' ', ' ', ' ', '#', ' ', ' ', ' ', ' ', ' ', ' ', ' ', '#', ' ', ' ', ' ', ' ', ' ', ' ', ' ', '#' },
+                { '#', ' ', ' ', ' ', ' ', ' ', ' ', ' ', '#', ' ', ' ', ' ', ' ', ' ', ' ', ' ', '#', ' ', ' ', ' ', ' ', ' ', ' ', ' ', '#' },
+                { '#', '#', '#', '#', '#', '#', '#', '#', '#', '#', '#', '#', '#', '#', '#', '#', '#', '#', '#', '#', '#', '#', '#', '#', '#' }
+            };
+
+            for (int i = 0; i < 25; i++)
+            {
+                for (int j = 0; j < 13; j++)
+                {
+                    Console.SetCursorPosition(i + 5, j + 3);
+                    Console.Write(borders[j, i]);
+                }
+            }
+
+
+
             void X(int x, int y, int length, char font)
             {
                 for (int i = 0; i < length; i++)
                 {
+                    Console.ForegroundColor = ConsoleColor.Blue;
                     Console.SetCursorPosition(x + i, y + i);
                     Console.Write(font);
                     Console.SetCursorPosition(x - i + length - 1, y + i);
                     Console.Write(font);
+                    Console.ForegroundColor = ConsoleColor.White;
                 }
-            }sss
+            }
 
 
             while (true)
@@ -33,7 +63,7 @@ namespace dragon
                 {
                     var key = Console.ReadKey(true);
 
-                    if (key.Key == ConsoleKey.Spacebar) X((int)selected.X * 3, (int)selected.Y * 3, 3, 'w');
+                    if (key.Key == ConsoleKey.Spacebar) X((int)selected.X * 8, (int)selected.Y * 4, 3, 'w');
 
                     if (key.Key == ConsoleKey.W) selected.Y--;
                     if (key.Key == ConsoleKey.A) selected.X--;
@@ -41,7 +71,7 @@ namespace dragon
                     if (key.Key == ConsoleKey.D) selected.X++;
                 }
 
-                Console.SetCursorPosition((int)selected.X * 3, (int)selected.Y * 3);
+                Console.SetCursorPosition((int)selected.X * 8, (int)selected.Y * 4);
                 Console.Write("s");
             }
         }
