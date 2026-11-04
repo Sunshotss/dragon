@@ -13,3 +13,19 @@ C:\Users\lukas\Documents\advent\adventure game\dragon\obj\Debug\net10.0\refint\d
 C:\Users\lukas\Documents\advent\adventure game\dragon\obj\Debug\net10.0\dragon.pdb
 C:\Users\lukas\Documents\advent\adventure game\dragon\obj\Debug\net10.0\dragon.genruntimeconfig.cache
 C:\Users\lukas\Documents\advent\adventure game\dragon\obj\Debug\net10.0\ref\dragon.dll
+C:\Users\25TE_InfoMedia\Documents\github\dragon\bin\Debug\net10.0\dragon.exe
+C:\Users\25TE_InfoMedia\Documents\github\dragon\bin\Debug\net10.0\dragon.deps.json
+C:\Users\25TE_InfoMedia\Documents\github\dragon\bin\Debug\net10.0\dragon.runtimeconfig.json
+C:\Users\25TE_InfoMedia\Documents\github\dragon\bin\Debug\net10.0\dragon.dll
+C:\Users\25TE_InfoMedia\Documents\github\dragon\bin\Debug\net10.0\dragon.pdb
+C:\Users\25TE_InfoMedia\Documents\github\dragon\obj\Debug\net10.0\dragon.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\25TE_InfoMedia\Documents\github\dragon\obj\Debug\net10.0\dragon.AssemblyInfoInputs.cache
+C:\Users\25TE_InfoMedia\Documents\github\dragon\obj\Debug\net10.0\dragon.AssemblyInfo.cs
+C:\Users\25TE_InfoMedia\Documents\github\dragon\obj\Debug\net10.0\dragon.csproj.CoreCompileInputs.cache
+C:\Users\25TE_InfoMedia\Documents\github\dragon\obj\Debug\net10.0\dragon.sourcelink.json
+C:\Users\25TE_InfoMedia\Documents\github\dragon\obj\Debug\net10.0\dragon.dll
+C:\Users\25TE_InfoMedia\Documents\github\dragon\obj\Debug\net10.0\refint\dragon.dll
+C:\Users\25TE_InfoMedia\Documents\github\dragon\obj\Debug\net10.0\dragon.pdb
+C:\Users\25TE_InfoMedia\Documents\github\dragon\obj\Debug\net10.0\dragon.genruntimeconfig.cache
+C:\Users\25TE_InfoMedia\Documents\github\dragon\obj\Debug\net10.0\ref\dragon.dll
+C:\Users\25TE_InfoMedia\Documents\github\dragon\obj\Debug\net10.0\dragon.csproj.Up2Date

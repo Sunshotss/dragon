@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("dragon")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e83e13a8d1e192b8f1dc4b88762af14f4799152b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a33705e810d042ab682c5089acf90b2c51a6cd87")]
 [assembly: System.Reflection.AssemblyProductAttribute("dragon")]
 [assembly: System.Reflection.AssemblyTitleAttribute("dragon")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
