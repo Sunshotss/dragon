@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\25TE_InfoMedia\\Documents\\github\\dragon\\dragon.csproj": {}
+    "C:\\Users\\lukas\\Documents\\advent\\adventure game\\dragon\\dragon.csproj": {}
   },
   "projects": {
-    "C:\\Users\\25TE_InfoMedia\\Documents\\github\\dragon\\dragon.csproj": {
+    "C:\\Users\\lukas\\Documents\\advent\\adventure game\\dragon\\dragon.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\25TE_InfoMedia\\Documents\\github\\dragon\\dragon.csproj",
+        "projectUniqueName": "C:\\Users\\lukas\\Documents\\advent\\adventure game\\dragon\\dragon.csproj",
         "projectName": "dragon",
-        "projectPath": "C:\\Users\\25TE_InfoMedia\\Documents\\github\\dragon\\dragon.csproj",
-        "packagesPath": "C:\\Users\\25TE_InfoMedia\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\25TE_InfoMedia\\Documents\\github\\dragon\\obj\\",
+        "projectPath": "C:\\Users\\lukas\\Documents\\advent\\adventure game\\dragon\\dragon.csproj",
+        "packagesPath": "C:\\Users\\lukas\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\lukas\\Documents\\advent\\adventure game\\dragon\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\25TE_InfoMedia\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\lukas\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -67,7 +63,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.401/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.400/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.CSharp": "(,4.7.32767]",
             "Microsoft.VisualBasic": "(,10.4.32767]",

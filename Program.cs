@@ -12,7 +12,7 @@ namespace dragon
             Vector2 selected = new Vector2(1, 1);
 
             Dictionary<string, int> onboard = new Dictionary<string, int>();
-
+            adasdsdad
 
 
             char[,] borders = { 
